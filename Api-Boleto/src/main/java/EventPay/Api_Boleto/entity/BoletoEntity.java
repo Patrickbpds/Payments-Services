@@ -8,6 +8,7 @@ import java.time.LocalDateTime;
 import EventPay.Api_Boleto.entity.enums.SituationBoleto;
 
 @Entity
+@Table(name = "boletos")
 @Getter
 @Setter
 @AllArgsConstructor
